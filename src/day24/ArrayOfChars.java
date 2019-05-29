@@ -24,21 +24,22 @@ public class ArrayOfChars {
 			System.out.print(chars[i]);
 		}
 		
+		System.out.println();
 		str="";
 		
 		for(int i=chars.length-1;i>=0;i--) {
 			str+=chars[i];
-			
+		
 		}
 		
-		System.out.println(str);
+		System.out.print(str);
 		
 		// print characters one by one if characters is equals to 'o'replace with '*'
 		
-		
+		System.out.println();
 		char[] letters=str.toCharArray();
 		for(char a:letters) {
-			System.out.println(a);
+			System.out.print(a);
 		}
 		
 		

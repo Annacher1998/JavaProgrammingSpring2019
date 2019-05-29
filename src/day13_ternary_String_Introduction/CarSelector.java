@@ -49,7 +49,7 @@ public class CarSelector {
         	System.out.println("You selected: "+ carOptions+ " AveragePrice is : "+ averagePrice );
         	break;
          default:
-        	 System.out.println("Car type not available");
+        	 System.out.println("Computer type not available");
         	
          }
 		
