@@ -12,7 +12,11 @@ public class Car {
     String color;
 
 public void printCarInfo() {
+<<<<<<< HEAD
 	System.out.println("Computer make "+"["+make+"]"+","+ "model ["+model+"]"+","+"color ["+color+"]"+","+"current Speed ["+currentSpeed+"]");
+=======
+	System.out.println("Car make "+"["+make+"]"+","+ "model ["+model+"]"+","+"color ["+color+"]"+","+"current Speed ["+currentSpeed+"]");
+>>>>>>> 76a121b84d91372fe5cc9440b919c15b60076a98
 }
 public void  showCurrentSpeed(int speedLimit) {
 	
